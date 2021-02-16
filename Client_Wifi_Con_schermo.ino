@@ -51,7 +51,7 @@ void setup()
   }
   display.clearDisplay();
   
-  Serial.begin(115200);//Serial comunication initialization
+  Serial.begin(9600);//Serial comunication initialization
   Serial.println("1");
  //Wifi comunication initialization
   WiFi.begin(ssid, password);
