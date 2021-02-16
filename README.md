@@ -19,3 +19,4 @@ TCP_Server.py
 Questo progetto python contiene un esempio primordiale di server tcp che mostra semplicemente i messaggi ricevuti dal client esp, creato e utilizzato solo a scopi di test.
 
 esp_script_read.ino
+Questo progetto arduino contiene il codice per la lettura degli UID dei tag utilizzando il modulo pn532 con il protocollo SPI.
