@@ -1,7 +1,7 @@
 #include "WiFi.h"
 
-const char* ssid = "password";
-const char* password = "password";
+const char* ssid = "CENSORED";
+const char* password = "CENSORED";
 
 const uint16_t port = 60101;
 const char * host = "192.168.0.2";
