@@ -25,8 +25,8 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RST);//oled sc
 void setup()
 {
   if(!hotspot){
-    ssid = "inoltre17813";
-    password = "inoltre12530";
+    ssid = "CENSORED";
+    password = "CENSORED";
   }
   else{
     ssid = "iphone";
