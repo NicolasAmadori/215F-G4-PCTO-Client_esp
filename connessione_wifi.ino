@@ -1,7 +1,7 @@
 #include "WiFi.h"
  
-const char* ssid = "ssid";
-const char* password =  "password";
+const char* ssid = "CENSORED";
+const char* password =  "CENSORED";
 //const char* ssid = "iphone";
 //const char* password =  "password";
  
