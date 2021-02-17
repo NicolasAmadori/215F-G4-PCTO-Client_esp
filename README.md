@@ -21,7 +21,7 @@ Questo progetto python contiene un esempio primordiale di server tcp che mostra 
 esp_script_read.ino  
 Questo progetto arduino contiene il codice per la lettura degli UID dei tag utilizzando il modulo pn532 con il protocollo SPI.  Inoltre è presente un processo di autenticazione attraverso la propria carta di identità elettronica, per assicurarsi che il lettore venga utilizzato solo dalla persona autorizzata.
 
-Wifi_Schermo_RFID.ino
+Wifi_Schermo_RFID.ino  
 Questo progetto è la fusione di esp_script_read.ino  e Client_Wifi_Con_schermo.ino.
 Per cui ha la funzionalità di connessione alla rete WiFi, la possibilità di utilizzare lo schermo integrate nell'esp e la connettività al lettore rfid di schede.
 Questo progetto parte cercando di collegarsi al wifi, una volta fatto ciò bisogna autenticarsi con una carta di identità elettronica. Una volta autenticati si potrà iniziare a scansionare tag rfid che verranno spediti al server tcp presente nella stessa rete a cui è collegato l'esp.
