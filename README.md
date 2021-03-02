@@ -25,3 +25,6 @@ Wifi_Schermo_RFID.ino
 Questo progetto è la fusione di esp_script_read.ino  e Client_Wifi_Con_schermo.ino.
 Per cui ha la funzionalità di connessione alla rete WiFi, la possibilità di utilizzare lo schermo integrate nell'esp e la connettività al lettore rfid di schede.
 Questo progetto parte cercando di collegarsi al wifi, una volta fatto ciò bisogna autenticarsi con una carta di identità elettronica. Una volta autenticati si potrà iniziare a scansionare tag rfid che verranno spediti al server tcp presente nella stessa rete a cui è collegato l'esp.
+
+TCP_Client.py  
+Questo file contiene un esempio di client TCP in python per provare la ricezione dell'esp di pacchetti dalla rete nella porta 80.
