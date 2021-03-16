@@ -28,3 +28,9 @@ Questo progetto parte cercando di collegarsi al wifi, una volta fatto ciò bisog
 
 TCP_Client.py  
 Questo file contiene un esempio di client TCP in python per provare la ricezione dell'esp di pacchetti dalla rete nella porta 80.
+
+Wifi_Schermo_RFID_V2.ino  
+Questo file è il file presente con lo stesso nome, ma contiene una modifica principale per quanto riguarda il funzionamento. Infatti mentre nella prima versione del file L'esp si collega al wifi e successivamente chiede l'autenticazione, in questa versione prima bisogna autenticarsi tramite la CIE (carta di identità elettronica) e solo successivamente si collega alla rete wifi.
+
+Wifi_Schermo_RFID_V3.ino  
+Questo file contiene una modifica al file con lo stesso nome versione precedente, ovvero quella di ricevere un messaggio dal server tcp preente sul computer una volta inviato il messaggio.
